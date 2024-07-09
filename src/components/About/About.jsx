@@ -37,7 +37,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
         <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frameworks and Libraries:</h3>
+              <h3>Backend:</h3>
               <br></br>
               <p>
               JDBC, Spring Boot, Hibernate, REST API, JUnit, Mockito, Kafka
