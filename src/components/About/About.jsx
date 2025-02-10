@@ -19,7 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Languages:</h3>
               <br></br>
-              <p>C++, Java, JavaScript, SQL</p>
+              <p>C++, Java, JavaScript</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -28,8 +28,8 @@ export const About = () => {
               <h3>Backend:</h3>
               <br></br>
               <p>
-                JDBC, Spring Boot, Hibernate, Oracle, REST API, JUnit, Mockito,
-                Kafka,
+                JDBC, Spring Boot, Hibernate, SQL, Oracle, REST API, JUnit,
+                Mockito, Kafka,
               </p>
             </div>
           </li>
