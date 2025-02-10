@@ -1,5 +1,20 @@
 [
   {
+    "title": "Expense Tracker",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a full-stack expense tracking application that helps users add expenses manually or by scanning bills, set budgets, track spending with visual charts, and receive AI-generated financial insights.",
+    "skills": ["React", "Java", "Spring", "RESTful APIs", "Docker"],
+    "demo": "https://willowy-licorice-a48823.netlify.app/login",
+    "git": "https://github.com/deekshamypersonal/expense-tracker-backend.git"
+  },
+  {
+    "title": "Proxy Server",
+    "imageSrc": "projects/project.png",
+    "description": "A Java-based multithreaded HTTP/HTTPS Proxy Server that efficiently handles concurrent requests with a thread pool, speeds up responses using a fast LRU cache and supports dynamic host blocking for real-time access control.",
+    "skills": ["Java", "TCP"],
+    "git": "https://github.com/deekshamypersonal/proxy-server.git"
+  },
+  {
     "title": "News Hub",
     "imageSrc": "projects/project.png",
     "description": "A full-stack web application that aggregates the latest news from various sources. The site uses HTTP for cost efficiency, as it does not collect or handle any sensitive user data.",

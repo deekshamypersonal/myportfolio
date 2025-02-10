@@ -9,17 +9,29 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Deeksha</h1>
         <p className={styles.description}>
-        I am a full-stack Java developer with over 5 years of hands-on experience in designing and developing robust applications. I am proficient in Java, Spring Boot, Hibernate, and have extensive knowledge of front-end technologies like ReactJS, facilitating seamless integration with back-end services.
+          I am a full-stack Java developer with over five years of experience in
+          designing and building scalable applications. After taking a 2.5-year
+          career break for full-time parenting, I have remained actively engaged
+          in personal projects to keep my technical skills sharp and stay up to
+          date with industry trends.
         </p>
         <br></br>
-        <p className={styles.description}>I took a 2-year career break for caregiving purposes. During this break, I actively engaged in personal projects to maintain and enhance my technical skills, ensuring they remain up-to-date with current industry standards.</p>
+        <p className={styles.description}>
+          My expertise includes Java, Spring Boot, and Hibernate, along with
+          front-end technologies like ReactJS, enabling seamless integration
+          between the front and back end. I also have experience working with
+          cloud technologies, including AWS, as well as containerization using
+          Docker. Additionally, I have a strong understanding of microservices
+          architecture, API development, and system design principles, allowing
+          me to build efficient and maintainable applications.
+        </p>
         <div className={styles.res}>
-        <a href="https://docs.google.com/document/d/1iW3W4XOr0urqaNZtRHboVc5V0ruCZLCi/edit" className={styles.contactBtn}>
-          Resume
-        </a>
-        <a href="mailto:deekshatrip@gmail.com" className={styles.contactBtn}>
-          Hire Me
-        </a>
+          <a
+            href="https://docs.google.com/document/d/1_nq0BewYIa16hdXU7dMlu80KV8a7V0iN/edit"
+            className={styles.contactBtn}
+          >
+            Resume
+          </a>
         </div>
       </div>
       <img

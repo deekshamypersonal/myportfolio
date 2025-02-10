@@ -14,13 +14,22 @@ export const About = () => {
           className={styles.aboutImage}
         /> */}
         <ul className={styles.aboutItems}>
-        <li className={styles.aboutItem}>
-        <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Languages:</h3>
               <br></br>
+              <p>C++, Java, JavaScript, SQL</p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Backend:</h3>
+              <br></br>
               <p>
-              C, C++, Java, SQL
+                JDBC, Spring Boot, Hibernate, Oracle, REST API, JUnit, Mockito,
+                Kafka,
               </p>
             </div>
           </li>
@@ -29,19 +38,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend:</h3>
               <br></br>
-              <p>
-              HTML, CSS, JavaScript, ReactJS, Tailwind CSS
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-        <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend:</h3>
-              <br></br>
-              <p>
-              JDBC, Spring Boot, Hibernate, REST API, JUnit, Mockito, Kafka
-              </p>
+              <p>HTML, CSS, JavaScript, ReactJS</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -49,9 +46,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Cloud and Infrastructure:</h3>
               <br></br>
-              <p>
-              AWS, Docker, Git
-              </p>
+              <p>AWS, Docker, Git</p>
             </div>
           </li>
         </ul>
