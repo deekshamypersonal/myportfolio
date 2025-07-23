@@ -1,5 +1,18 @@
 @import "./vars.css";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--your-background-color); /* if needed */
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
 .App {
   background-color: var(--color-bg);
   width: 100%;

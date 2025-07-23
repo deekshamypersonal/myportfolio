@@ -17,7 +17,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Languages:</h3>
+              <h3 className={styles.underline}>Languages:</h3>
               <br></br>
               <p>C++, Java, JavaScript</p>
             </div>
@@ -25,8 +25,8 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend:</h3>
-              <br></br>
+              <h3 className={styles.underline}>Backend:</h3>
+
               <p>
                 JDBC, Spring Boot, Hibernate, SQL, Oracle, REST API, JUnit,
                 Mockito, Kafka,
@@ -36,16 +36,16 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend:</h3>
-              <br></br>
+              <h3 className={styles.underline}>Frontend:</h3>
+
               <p>HTML, CSS, JavaScript, ReactJS</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Cloud and Infrastructure:</h3>
-              <br></br>
+              <h3 className={styles.underline}>Cloud and Infrastructure:</h3>
+
               <p>AWS, Docker, Git</p>
             </div>
           </li>

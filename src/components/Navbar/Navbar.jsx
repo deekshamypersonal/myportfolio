@@ -26,8 +26,8 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar} ref={menuRef}>
-      <a className={styles.title} href="/">
-        Portfolio
+      <a className={styles.title} href="https://github.com/deekshamypersonal">
+        GitHub
       </a>
       <div className={styles.menu}>
         <img

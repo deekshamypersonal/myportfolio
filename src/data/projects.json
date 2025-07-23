@@ -1,39 +1,39 @@
 [
   {
-    "title": "Expense Tracker",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a full-stack expense tracking application that helps users add expenses manually or by scanning bills, set budgets, track spending with visual charts, and receive AI-generated financial insights.",
+    "title": "Finance Tracker",
+    "imageSrc": "projects/Demo_expense.gif",
+    "description": "Full-stack expense tracking application that helps users add expenses manually or by scanning bills.",
     "skills": ["React", "Java", "Spring", "RESTful APIs", "Docker"],
     "demo": "https://willowy-licorice-a48823.netlify.app/login",
     "git": "https://github.com/deekshamypersonal/expense-tracker-backend.git"
   },
   {
+    "title": "FocusRead Chrome Extension",
+    "imageSrc": "projects/plugin_demo.gif",
+    "description": "Chrome extension that helps us read without distractions.",
+    "skills": ["JavaScript", "Chrome Extension APIs"],
+    "demo": "https://chromewebstore.google.com/detail/focusread/jahpanahmimcapcicdodjgbjojplkdfb",
+    "git": "https://github.com/deekshamypersonal/focus-read-extension.git"
+  },
+  {
+    "title": "Event Tracker",
+    "imageSrc": "projects/event.png",
+    "description": "This project tracks when users click Enroll Now and Pay Now buttons and helps user calculate drop rate during checkout.",
+    "skills": ["Prometheus","Grafana"],
+    "git": "https://github.com/deekshamypersonal/dashboard-app.git"
+  },
+  {
     "title": "Proxy Server",
-    "imageSrc": "projects/project.png",
-    "description": "A Java-based multithreaded HTTP/HTTPS Proxy Server that efficiently handles concurrent requests with a thread pool, speeds up responses using a fast LRU cache and supports dynamic host blocking for real-time access control.",
-    "skills": ["Java", "TCP"],
+    "imageSrc": "projects/proxy-server.jpeg",
+    "description": "Multithreaded HTTP/HTTPS Proxy Server that efficiently handles concurrent requests with a thread pool, speeds up responses using a fast LRU cache and supports dynamic host blocking for real-time access control.",
+    "skills": ["Java", "TCP Socket"],
     "git": "https://github.com/deekshamypersonal/proxy-server.git"
   },
   {
-    "title": "News Hub",
-    "imageSrc": "projects/project.png",
-    "description": "A full-stack web application that aggregates the latest news from various sources. The site uses HTTP for cost efficiency, as it does not collect or handle any sensitive user data.",
-    "skills": ["React", "Spring Boot", "RESTful APIs", "Docker" , "AWS EC2"],
-    "demo": "http://newsapp1993.s3-website-us-east-1.amazonaws.com/",
-    "git": "https://github.com/deekshamypersonal/NewsApp/tree/main"
-  },
-  {
-    "title": "Sync Reminder",
-    "imageSrc": "projects/project.png",
-    "description": "Developed an application that enables automatic event creation and reminders directly from chat applications like Telegram.",
-    "skills": ["Spring Boot", "NLP", "OAuth", "AWS Serverless"],
-    "git": "https://github.com/deekshamypersonal/telegramintegration"
-  },
-  {
     "title": "Hospital Bed Tracker",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Bed_Tracker.png",
     "description": "Implemented a scalable backend for patient bed booking with role-based access, automated bed allocation, and unique ID dispatch via email.",
-    "skills": ["Microservice","JWT", "RabbitMQ", "Redis"],
+    "skills": ["Microservice","JWT", "RabbitMQ", "Redis", "API Gateway"],
     "git": "https://github.com/deekshamypersonal/bedtracker/tree/master"
   }
 ]
